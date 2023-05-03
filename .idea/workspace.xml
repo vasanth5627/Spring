@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c22fc07-5182-4906-90c4-ff4c724550a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/CI/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/CI/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/CI/CI_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/CI/Certi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/CI/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle/Life_Cycle_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle/Pepsi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle/Samosa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/collections/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/collections/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/collections/col_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/reference/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/reference/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/reference/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/reference/ref_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/spring/core/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OaaErZMmsIziyF8zPKuFRe32bq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/vasanthkumar/IdeaProjects/SpringCore/src/main/java/org/spring/core/LifeCycle",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.35287356"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/spring/core/CI" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/spring/core/reference" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/spring/core/collections" />
+      <recent name="$PROJECT_DIR$/target" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/spring/core" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/target" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.org.spring.core.LifeCycle.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.spring.core.App" />
+      <module name="SpringCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.spring.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.spring.core.CI.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.spring.core.CI.App" />
+      <module name="SpringCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.spring.core.CI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.spring.core.LifeCycle.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.spring.core.LifeCycle.App" />
+      <module name="SpringCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.spring.core.LifeCycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.spring.core.collections.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.spring.core.collections.App" />
+      <module name="SpringCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.spring.core.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.spring.core.reference.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.spring.core.reference.App" />
+      <module name="SpringCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.spring.core.reference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.org.spring.core.LifeCycle.App" />
+        <item itemvalue="Application.org.spring.core.CI.App" />
+        <item itemvalue="Application.org.spring.core.reference.App" />
+        <item itemvalue="Application.org.spring.core.collections.App" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c22fc07-5182-4906-90c4-ff4c724550a0" name="Changes" comment="" />
+      <created>1681801040215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681801040215</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

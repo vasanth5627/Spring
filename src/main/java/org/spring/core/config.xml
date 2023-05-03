@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    Each bean represent a student object-->
+    <bean class="org.spring.core.Student" name="student1">
+<!--  setter injection-->
+        <property name="sId">
+            <value>22344</value>
+        </property>
+        <property name="sName">
+            <value>Vasanth</value>
+        </property>
+        <property name="sAddress">
+            <value>A.P</value>
+        </property>
+    </bean>
+    <bean class="org.spring.core.Student" name="student2">
+        <!--  setter injection , value as attribute not a tag-->
+        <property name="sId" value="22345"/>
+        <property name="sName" value="Vijay"/>
+        <property name="sAddress" value="T.S"/>
+
+    </bean>
+
+
+
+</beans>

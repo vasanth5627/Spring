@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean class="org.spring.core.CI.Person" name ="person">
+    <!--    we can use c schema or we can use value as attribute in constructor-arg tag-->
+        <constructor-arg>
+            <value>Vasanth</value>
+        </constructor-arg>
+
+        <constructor-arg value="123" type="int"/>
+
+        <constructor-arg ref="certi"/>
+        <constructor-arg>
+            <list>
+                <value type="String">1234</value>
+                <value>4567</value>
+            </list>
+        </constructor-arg>
+
+    </bean>
+    <bean class="org.spring.core.CI.Certi" name="certi">
+        <constructor-arg value="IOS" type="String"/>
+    </bean>
+
+    <bean class="org.spring.core.CI.Addition" name="add">
+        <constructor-arg value="12" type="int" index="1"/>
+        <constructor-arg value="13" type="int" index="0"/>
+    </bean>
+
+</beans>
