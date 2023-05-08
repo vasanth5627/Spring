@@ -7,27 +7,14 @@
  https://www.springframework.org/schema/beans/spring-beans.xsd
  http://www.springframework.org/schema/context
  http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <context:component-scan base-package="org.spring.core.JavaConfig"/>
 
 <!--    Each bean represent a student object-->
-    <bean class="org.spring.core.Student" name="student1">
-<!--  setter injection-->
-        <property name="sId">
-            <value>22344</value>
-        </property>
-        <property name="sName">
-            <value>Vasanth</value>
-        </property>
-        <property name="sAddress">
-            <value>A.P</value>
-        </property>
-    </bean>
-    <bean class="org.spring.core.Student" name="student2">
-        <!--  setter injection , value as attribute not a tag-->
-        <property name="sId" value="22345"/>
-        <property name="sName" value="Vijay"/>
-        <property name="sAddress" value="T.S"/>
+<!--<bean class="org.spring.core.JavaConfig.Student" name="student">-->
 
-    </bean>
+<!--</bean>-->
+
 
 
 
