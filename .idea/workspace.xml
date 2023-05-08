@@ -4,34 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c22fc07-5182-4906-90c4-ff4c724550a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/CI/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/CI/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/CI/CI_config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/CI/Certi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/CI/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle/Life_Cycle_config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle/Pepsi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle/Samosa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/collections/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/collections/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/collections/col_config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/reference/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/reference/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/reference/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/reference/ref_config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/spring/core/AppTest.java" afterDir="false" />
+    <list default="true" id="8c22fc07-5182-4906-90c4-ff4c724550a0" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/AutoWire/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/AutoWire/Annotation/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/AutoWire/Annotation/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/AutoWire/Annotation/AutoConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/AutoWire/Annotation/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/AutoWire/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/AutoWire/AutoConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/AutoWire/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/JavaConfig/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/JavaConfig/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/SpEL/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/SpEL/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/SpEL/SpEl_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/StandAloneCollections/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/StandAloneCollections/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/StandAloneCollections/standAlone_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/Stereotype/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/Stereotype/Stero_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/Stereotype/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/Stereotype/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/core/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle/Life_Cycle_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle/Life_Cycle_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/core/reference/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/reference/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/spring/core/reference/ref_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/spring/core/reference/ref_config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/vasanthkumar/IdeaProjects/SpringCore/src/main/java/org/spring/core/LifeCycle",
+    "last_opened_file_path": "/Users/vasanthkumar/IdeaProjects/SpringCore/src/main/java/org/spring/core/SpEL",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.35287356"
@@ -70,11 +69,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/org/spring/core/LifeCycle" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/spring/core/CI" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/spring/core/reference" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/spring/core/collections" />
-      <recent name="$PROJECT_DIR$/target" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/spring/core/SpEL" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/spring/core/Stereotype" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/spring/core/StandAloneCollections" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/spring/core/AutoWire/Annotation" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/spring/core/AutoWire" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/spring/core" />
@@ -83,13 +82,13 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.spring.core.LifeCycle.App">
+  <component name="RunManager" selected="Application.org.spring.core.SpEL.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.spring.core.App" />
+      <option name="MAIN_CLASS_NAME" value="org.spring.core.AutoWire.Annotation.App" />
       <module name="SpringCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.spring.core.*" />
+          <option name="PATTERN" value="org.spring.core.AutoWire.Annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.spring.core.CI.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.spring.core.CI.App" />
+    <configuration name="org.spring.core.AutoWire.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.spring.core.AutoWire.App" />
       <module name="SpringCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.spring.core.CI.*" />
+          <option name="PATTERN" value="org.spring.core.AutoWire.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.spring.core.LifeCycle.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.spring.core.LifeCycle.App" />
+    <configuration name="org.spring.core.SpEL.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.spring.core.SpEL.App" />
       <module name="SpringCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.spring.core.LifeCycle.*" />
+          <option name="PATTERN" value="org.spring.core.SpEL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.spring.core.collections.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.spring.core.collections.App" />
+    <configuration name="org.spring.core.StandAloneCollections.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.spring.core.StandAloneCollections.App" />
       <module name="SpringCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.spring.core.collections.*" />
+          <option name="PATTERN" value="org.spring.core.StandAloneCollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.spring.core.reference.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.spring.core.reference.App" />
+    <configuration name="org.spring.core.Stereotype.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.spring.core.Stereotype.App" />
       <module name="SpringCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.spring.core.reference.*" />
+          <option name="PATTERN" value="org.spring.core.Stereotype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.spring.core.LifeCycle.App" />
-        <item itemvalue="Application.org.spring.core.CI.App" />
-        <item itemvalue="Application.org.spring.core.reference.App" />
-        <item itemvalue="Application.org.spring.core.collections.App" />
+        <item itemvalue="Application.org.spring.core.SpEL.App" />
+        <item itemvalue="Application.org.spring.core.Stereotype.App" />
+        <item itemvalue="Application.org.spring.core.StandAloneCollections.App" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.org.spring.core.AutoWire.App" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +167,26 @@
       <option name="presentableId" value="Default" />
       <updated>1681801040215</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changes">
+      <created>1683077356620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683077356620</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -180,5 +198,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
 </project>

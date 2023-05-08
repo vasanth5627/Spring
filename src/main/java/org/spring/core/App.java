@@ -25,7 +25,7 @@ public class App
 //        String[] list = f.list();
 //        Arrays.stream(list).forEach(e-> System.out.println(e));
 
-        ApplicationContext context = new ClassPathXmlApplicationContext("file:////Users/vasanthkumar/IdeaProjects/SpringCore/src/main/java/org/spring/core/config.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("file:////Users/vasanthkumar/IdeaProjects/SpringCore/src/main/java/org/spring/core/standAlone_config.xml");
             Student student1 =  (Student) context.getBean("student1");
         System.out.println(student1);
         Student student2 =  (Student) context.getBean("student2");

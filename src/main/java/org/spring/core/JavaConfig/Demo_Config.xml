@@ -7,23 +7,27 @@
  https://www.springframework.org/schema/beans/spring-beans.xsd
  http://www.springframework.org/schema/context
  http://www.springframework.org/schema/context/spring-context.xsd">
-    <context:annotation-config/>
 
 <!--    Each bean represent a student object-->
-    <bean class="org.spring.core.LifeCycle.Samosa" name="samosa1" init-method="hey" destroy-method="bye">
+    <bean class="org.spring.core.Student" name="student1">
 <!--  setter injection-->
-        <property name="price" value="10"/>
+        <property name="sId">
+            <value>22344</value>
+        </property>
+        <property name="sName">
+            <value>Vasanth</value>
+        </property>
+        <property name="sAddress">
+            <value>A.P</value>
+        </property>
     </bean>
+    <bean class="org.spring.core.Student" name="student2">
+        <!--  setter injection , value as attribute not a tag-->
+        <property name="sId" value="22345"/>
+        <property name="sName" value="Vijay"/>
+        <property name="sAddress" value="T.S"/>
 
-    <bean class="org.spring.core.LifeCycle.Pepsi" name="pepsi1">
-        <property name="price" value="10"/>
     </bean>
-
-    <bean class="org.spring.core.LifeCycle.Example" name="example1">
-        <property name="subject" value="Maths"/>
-    </bean>
-
-
 
 
 

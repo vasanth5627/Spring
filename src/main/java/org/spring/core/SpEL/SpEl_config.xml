@@ -7,22 +7,10 @@
  https://www.springframework.org/schema/beans/spring-beans.xsd
  http://www.springframework.org/schema/context
  http://www.springframework.org/schema/context/spring-context.xsd">
-    <context:annotation-config/>
+
+    <context:component-scan base-package="org.spring.core.SpEL"/>
 
 <!--    Each bean represent a student object-->
-    <bean class="org.spring.core.LifeCycle.Samosa" name="samosa1" init-method="hey" destroy-method="bye">
-<!--  setter injection-->
-        <property name="price" value="10"/>
-    </bean>
-
-    <bean class="org.spring.core.LifeCycle.Pepsi" name="pepsi1">
-        <property name="price" value="10"/>
-    </bean>
-
-    <bean class="org.spring.core.LifeCycle.Example" name="example1">
-        <property name="subject" value="Maths"/>
-    </bean>
-
 
 
 
